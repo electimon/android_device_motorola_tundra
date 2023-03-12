@@ -103,20 +103,20 @@
     <ctl name="DISPLAY_PORT1 Mixer MultiMedia14" value="0" />
     <ctl name="DISPLAY_PORT1 Mixer MultiMedia15" value="0" />
     <ctl name="DISPLAY_PORT1 Mixer MultiMedia16" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia1" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia2" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia3" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia4" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia5" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia7" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia8" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia10" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia11" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia12" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia13" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia14" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia15" value="0" />
-    <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia16" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia2" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia3" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia4" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia7" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia8" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia11" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia12" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia13" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia14" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia15" value="0" />
+    <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia16" value="0" />
     <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia1" value="0" />
     <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia2" value="0" />
     <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia3" value="0" />
@@ -155,8 +155,6 @@
     <ctl name="RX_CDC_DMA_RX_1 Channels" value="One" />
     <ctl name="RX_CDC_DMA_RX_0 Channels" value="One" />
     <ctl name="VI_FEED_TX Channels" value="Two" />
-    <ctl name="RX_CDC_DMA_RX_0 Format" value="S16_LE" />
-    <ctl name="RX_CDC_DMA_RX_1 Format" value="S16_LE" />
     <ctl name="TX_CDC_DMA_TX_3 Format" value="S16_LE" />
     <!-- HFP start -->
     <ctl name="HFP_SLIM7_UL_HL Switch" value="0" />
@@ -191,7 +189,7 @@
     <!-- fm end -->
 
     <!-- Multimode Voice1 -->
-    <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode1" value="0" />
+    <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="0" />
     <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode1" value="0" />
     <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="0" />
     <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_4_MMode1" value="0" />
@@ -211,7 +209,7 @@
     <!-- Miltimode Voice1 end-->
 
     <!-- Multimode Voice2 -->
-    <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode2" value="0" />
+    <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="0" />
     <ctl name="RX_CDC_DMA_RX_0_Voice Mixer VoiceMMode2" value="0" />
     <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="0" />
     <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_4_MMode2" value="0" />
@@ -230,7 +228,7 @@
     <ctl name="VoiceMMode2_Tx Mixer PROXY_TX_MMode2" value="0" />
     <!-- Multimode Voice2 end-->
 
-    <ctl name="SEN_MI2S_RX_VI_FB_MUX" value="ZERO" />
+    <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="ZERO" />
 
     <!-- Voice external ec. reference -->
     <ctl name="VOC_EXT_EC MUX" value="NONE" />
@@ -254,7 +252,7 @@
     <!-- Incall Music End -->
 
     <!-- compress-voip-call start -->
-    <ctl name="SEN_MI2S_RX_Voice Mixer Voip" value="0" />
+    <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="0" />
     <ctl name="RX_CDC_DMA_RX_0_Voice Mixer Voip" value="0" />
     <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="0" />
     <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_4_Voip" value="0" />
@@ -292,6 +290,7 @@
     <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="0" />
 
     <!-- Codec controls -->
+    <ctl name="SWR DAC_Port Switch" value="0" />
 
     <!-- RX Controls -->
     <ctl name="RX_MACRO RX0 MUX" value="ZERO" />
@@ -308,24 +307,12 @@
     <ctl name="RX INT1 DEM MUX" value="NORMAL_DSM_OUT" />
     <ctl name="RX_COMP1 Switch" value="0" />
     <ctl name="RX_COMP2 Switch" value="0" />
-    <ctl name="HPHL_COMP Switch" value="0" />
-    <ctl name="HPHR_COMP Switch" value="0" />
-    <ctl name="EAR_RDAC Switch" value="0" />
-    <ctl name="HPHL_RDAC Switch" value="0" />
-    <ctl name="HPHR_RDAC Switch" value="0" />
-    <ctl name="AUX_RDAC Switch" value="0" />
-    <ctl name="RDAC3_MUX" value="RX1" />
     <ctl name="RX_EAR Mode" value="OFF" />
 
     <!-- TX Controls -->
     <!-- Enable these switches at the end of a path -->
-    <ctl name="ADC1_MIXER Switch" value="0" />
-    <ctl name="ADC2_MIXER Switch" value="0" />
-    <ctl name="ADC3_MIXER Switch" value="0" />
-
     <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
     <ctl name="MultiMedia1 Mixer TX_CDC_DMA_TX_3" value="0" />
-    <ctl name="ADC2 MUX" value="INP2" />
     <ctl name="DEC0_BCS Switch" value="0" />
     <ctl name="TX LPI Enable" value="0" />
     <ctl name="TX_AIF1_CAP Mixer DEC0" value="0" />
@@ -369,19 +356,12 @@
     <ctl name="TX DEC7 MUX" value="MSM_DMIC" />
     <ctl name="TX DMIC MUX7" value="ZERO" />
     <ctl name="TX SMIC MUX7" value="ZERO" />
-    <ctl name="ADC1 ChMap" value="ZERO" />
-    <ctl name="ADC2 ChMap" value="ZERO" />
-    <ctl name="ADC3 ChMap" value="ZERO" />
-    <ctl name="MBHC ChMap" value="ZERO" />
     <ctl name="BCS Channel" value="CH6" />
 
     <!-- Volume controls -->
     <ctl name="RX_RX0 Digital Volume" value="84" />
     <ctl name="RX_RX1 Digital Volume" value="84" />
     <ctl name="RX_RX2 Digital Volume" value="84" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
-    <ctl name="EAR PA GAIN" value="G_6_DB" />
 
     <ctl name="TX_DEC0 Volume" value="84" />
     <ctl name="TX_DEC1 Volume" value="84" />
@@ -392,13 +372,9 @@
     <ctl name="TX_DEC6 Volume" value="84" />
     <ctl name="TX_DEC7 Volume" value="84" />
 
-    <ctl name="ADC1 Volume" value="12" />
-    <ctl name="ADC2 Volume" value="12" />
-    <ctl name="ADC3 Volume" value="12" />
 
     <!-- Headphone class-H mode  -->
     <ctl name="RX_HPH_PWR_MODE" value="ULP" />
-    <ctl name="RX HPH Mode" value="CLS_H_ULP" />
 
     <!-- IIR/voice anc -->
     <ctl name="IIR0 Band1" id ="0" value="268435456" />
@@ -443,6 +419,7 @@
     <ctl name="RX INT2_1 VBAT RX AUX VBAT Enable" value="0" />
 
     <!-- Codec controls end -->
+    <ctl name="Haptics Amplitude Step" value="180" />
 
     <!-- defaults for mmap record -->
     <ctl name="MultiMedia16 Mixer TX_CDC_DMA_TX_3" value="0" />
@@ -452,12 +429,11 @@
     <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="0"/>
     <ctl name="RX_CDC_DMA_RX_6 Channels" value="One" />
 
-    <ctl name="SEN_MI2S_RX Channels" value="Two" />
-    <ctl name="SEN_MI2S_TX Channels" value="Two" />
+    <ctl name="PRIM_MI2S_RX Channels" value="Two" />
+    <ctl name="PRIM_MI2S_TX Channels" value="Two" />
 
-    <ctl name="SEN_MI2S_RX Format" value="S32_LE" />
-    <ctl name="SEN_MI2S_TX Format" value="S32_LE" />
-
+    <ctl name="PRIM_MI2S_RX Format" value="S32_LE" />
+    <ctl name="PRIM_MI2S_TX Format" value="S32_LE" />
     <!-- awinic smartPA -->
 
     <ctl name="aw_dev_0_switch" value="Enable" />
@@ -468,7 +444,7 @@
 
     <ctl name="aw882xx_rx_switch" value="Disable" />
     <ctl name="aw882xx_tx_switch" value="Disable" />
-    <ctl name="SEN_MI2S_RX_VI_FB_MUX" value="ZERO" />
+    <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="ZERO" />
 
     <ctl name="aw882xx_algo_cali_switch" value="Off" />
     <ctl name="aw882xx_algo_bypass_switch" value="Off" />
@@ -488,17 +464,17 @@
     </path>
 
     <path name="echo-reference">
-        <ctl name="AUDIO_REF_EC_UL1 MUX" value="SEN_MI2S_RX" />
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="I2S_RX" />
         <ctl name="EC Reference Channels" value="One"/>
     </path>
 
     <path name="echo-reference speaker">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEN_MI2S_RX" />
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="I2S_RX" />
         <ctl name="EC Reference Channels" value="One"/>
     </path>
 
     <path name="echo-reference handset">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEN_MI2S_RX" />
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="I2S_RX" />
         <ctl name="EC Reference Channels" value="One"/>
     </path>
 
@@ -511,13 +487,18 @@
         <path name="echo-reference headphones" />
     </path>
 
+    <path name="echo-reference display-port">
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="DISPLAY_PORT" />
+        <ctl name="EC Reference Channels" value="Two"/>
+    </path>
+
     <path name="echo-reference headphones-44.1">
         <ctl name="AUDIO_REF_EC_UL1 MUX" value="RX_CDC_DMA_RX_0" />
         <ctl name="EC Reference Channels" value="Two"/>
     </path>
 
     <path name="echo-reference usb-headphones">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="USB_AUDIO_RX" />
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="USB_AUDIO_RX" />
         <ctl name="EC Reference Channels" value="Two"/>
     </path>
 
@@ -539,20 +520,19 @@
     </path>
 
     <path name="echo-reference-voip">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEN_MI2S_RX" />
-        <ctl name="EC Reference Channels" value="One"/>
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="I2S_RX" />
+        <ctl name="EC Reference Channels" value="Two"/>
     </path>
 
     <path name="echo-reference-voip speaker">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEN_MI2S_RX" />
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="I2S_RX" />
         <ctl name="EC Reference Channels" value="One"/>
     </path>
 
     <path name="echo-reference-voip handset">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEN_MI2S_RX" />
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="I2S_RX" />
         <ctl name="EC Reference Channels" value="One"/>
     </path>
-
     <path name="echo-reference-voip headphones">
         <ctl name="AUDIO_REF_EC_UL10 MUX" value="RX_CDC_DMA_RX_0" />
         <ctl name="EC Reference Channels" value="Two"/>
@@ -581,12 +561,11 @@
     </path>
 
     <path name="deep-buffer-playback">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="1" />
     </path>
 
     <path name="deep-buffer-playback speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia1" value="1" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="1" />
         <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
@@ -654,15 +633,22 @@
         <path name="deep-buffer-playback speaker" />
     </path>
 
+    <path name="deep-buffer-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia1" value="1" />
+    </path>
+
     <path name="low-latency-playback">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-        <ctl name="aw882xx_algo_music_fasttrack_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-        <ctl name="aw882xx_algo_music_fasttrack_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+	<ctl name="aw882xx_algo_music_fasttrack_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
+    </path>
+
+    <path name="low-latency-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback bt-sco">
@@ -729,12 +715,13 @@
     </path>
 
     <path name="audio-ull-playback">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia8" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia8" value="1" />
     </path>
 
     <path name="audio-ull-playback speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia8" value="1" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia8" value="1" />
+	<ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="audio-ull-playback headphones">
@@ -748,6 +735,10 @@
     <path name="audio-ull-playback speaker-and-headphones">
         <path name="audio-ull-playback headphones" />
         <path name="audio-ull-playback speaker" />
+    </path>
+
+    <path name="audio-ull-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia8" value="1" />
     </path>
 
     <path name="audio-ull-playback bt-sco">
@@ -795,18 +786,22 @@
         <path name="audio-ull-playback speaker" />
     </path>
 
+    <path name="multi-channel-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia2" value="1" />
+    </path>
+
     <path name="multi-channel-playback afe-proxy">
         <ctl name="AFE_PCM_RX Audio Mixer MultiMedia2" value="1" />
     </path>
 
     <path name="compress-offload-playback speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia4" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia4" value="1" />
+	<ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="compress-offload-playback">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia4" value="1" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia4" value="1" />
     </path>
 
     <path name="compress-offload-playback bt-sco">
@@ -837,6 +832,14 @@
     <path name="compress-offload-playback speaker-and-usb-headphones">
         <path name="compress-offload-playback usb-headphones" />
         <path name="compress-offload-playback speaker" />
+    </path>
+
+    <path name="compress-offload-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia4" value="1" />
+    </path>
+
+    <path name="silence-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia9" value="1" />
     </path>
 
     <path name="compress-offload-playback headphones">
@@ -881,13 +884,12 @@
     </path>
 
     <path name="compress-offload-playback2">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia7" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia7" value="1" />
     </path>
 
     <path name="compress-offload-playback2 speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia7" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia7" value="1" />
+	<ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
@@ -1192,9 +1194,15 @@
     </path>
 
     <path name="compress-voip-call">
-        <ctl name="SEN_MI2S_RX_Voice Mixer Voip" value="1" />
+        <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
-        <ctl name="aw882xx_algo_voip_switch" value="On" />
+    </path>
+
+    <path name="compress-voip-call speaker">
+        <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
+        <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
+	<ctl name="aw882xx_algo_voip_switch" value="On" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
     <path name="compress-voip-call bt-a2dp">
@@ -1228,7 +1236,7 @@
 
     <path name="compress-voip-call afe-proxy">
         <ctl name="AFE_PCM_RX_Voice Mixer Voip" value="1" />
-        <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
+        <ctl name="Voip_Tx Mixer AFE_PCM_TX_Voip" value="1" />
     </path>
 
     <path name="compress-voip-call usb-headphones">
@@ -1242,21 +1250,20 @@
     </path>
 
     <path name="voicemmode1-call">
-        <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
-        <ctl name="aw882xx_algo_handset_switch" value="On" />
-    </path>
-
-    <path name="voicemmode1-call hco">
-        <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
-        <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_4_MMode1" value="1" />
     </path>
 
     <path name="voicemmode1-call speaker">
-        <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
-        <ctl name="aw882xx_algo_voice_switch" value="On" />
+	<ctl name="aw882xx_algo_voice_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
+    </path>
+
+    <path name="voicemmode1-call hco">
+        <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="VoiceMMode1_Tx Mixer USB_AUDIO_TX_MMode1" value="1" />
     </path>
 
     <path name="voicemmode1-call hearing-aid">
@@ -1308,22 +1315,31 @@
         <ctl name="VoiceMMode1_Tx Mixer USB_AUDIO_TX_MMode1" value="1" />
     </path>
 
-    <path name="voicemmode2-call">
-        <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
-        <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
-        <ctl name="aw882xx_algo_voice_switch" value="On" />
+    <path name="voicemmode1-call display-port-and-usb-headset-mic">
+        <ctl name="DISPLAY_PORT_RX_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="VoiceMMode1_Tx Mixer USB_AUDIO_TX_MMode1" value="1" />
     </path>
 
-    <path name="voicemmode2-call hco">
-        <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
-        <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_4_MMode2" value="1" />
+    <path name="voicemmode1-call display-port">
+        <ctl name="DISPLAY_PORT_RX_Voice Mixer VoiceMMode1" value="1" />
+        <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
+    </path>
+
+    <path name="voicemmode2-call">
+        <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
     </path>
 
     <path name="voicemmode2-call speaker">
-        <ctl name="SEN_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
-        <ctl name="aw882xx_algo_voice_switch" value="On" />
+	<ctl name="aw882xx_algo_voice_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
+    </path>
+
+    <path name="voicemmode2-call hco">
+        <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="VoiceMMode2_Tx Mixer USB_AUDIO_TX_MMode2" value="1" />
     </path>
 
     <path name="voicemmode2-call headphones">
@@ -1365,6 +1381,16 @@
         <ctl name="VoiceMMode2_Tx Mixer USB_AUDIO_TX_MMode2" value="1" />
     </path>
 
+    <path name="voicemmode2-call display-port-and-usb-headset-mic">
+        <ctl name="DISPLAY_PORT_RX_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="VoiceMMode2_Tx Mixer USB_AUDIO_TX_MMode2" value="1" />
+    </path>
+
+    <path name="voicemmode2-call display-port">
+        <ctl name="DISPLAY_PORT_RX_Voice Mixer VoiceMMode2" value="1" />
+        <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
+    </path>
+
     <path name="voicemmode2-call hearing-aid">
         <ctl name="PROXY_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
@@ -1377,13 +1403,16 @@
 
     <!-- VoIP Rx settings -->
     <path name="audio-playback-voip">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia10" value="1" />
-        <ctl name="aw882xx_algo_voip_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="1" />
+    </path>
+
+    <path name="audio-playback-voip hco">
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="audio-playback-voip speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia10" value="1" />
-        <ctl name="aw882xx_algo_voip_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="1" />
+	<ctl name="aw882xx_algo_voip_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
@@ -1424,6 +1453,15 @@
         <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
+    <path name="audio-playback-voip display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia10" value="1" />
+    </path>
+
+    <path name="audio-playback-voip speaker-and-display-port">
+        <path name="audio-playback-voip display-port" />
+        <path name="audio-playback-voip" />
+    </path>
+
     <!-- VoIP Tx settings -->
     <path name="audio-record-voip">
         <ctl name="MultiMedia10 Mixer TX_CDC_DMA_TX_3" value="1" />
@@ -1449,6 +1487,133 @@
 
     <path name="audio-record-voip bt-sco-swb">
         <path name="audio-record-voip bt-sco" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+	<ctl name="aw882xx_algo_music_fasttrack_switch" value="On" />
+	<ctl name="aw882xx_spin_relase_time" value="100" />
+    </path>
+
+    <path name="audio-with-haptics-playback">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-protected">
+        <path name="audio-with-haptics-playback" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-safe">
+        <path name="audio-with-haptics-playback" />
+    </path>
+
+    <path name="audio-with-haptics-playback display-port">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="DISPLAY_PORT Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback bt-sco">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback bt-sco-wb">
+        <path name="audio-with-haptics-playback bt-sco" />
+     </path>
+
+    <path name="audio-with-haptics-playback bt-sco-swb">
+         <path name="audio-with-haptics-playback bt-sco" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-display-port">
+         <path name="audio-with-haptics-playback display-port" />
+         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback afe-proxy">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="AFE_PCM_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback usb-headphones">
+         <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+         <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback usb-headset">
+         <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+         <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-usb-headphones">
+         <path name="audio-with-haptics-playback usb-headphones" />
+         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-safe-and-usb-headphones">
+        <path name="audio-with-haptics-playback usb-headphones" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback headphones">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback headset">
+        <path name="audio-with-haptics-playback headphones" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-headphones">
+        <path name="audio-with-haptics-playback headphones" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-safe-and-headphones">
+        <path name="audio-with-haptics-playback headphones" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-bt-sco">
+        <path name="audio-with-haptics-playback bt-sco" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-safe-and-bt-sco">
+        <path name="audio-with-haptics-playback bt-sco" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-bt-sco-wb">
+        <path name="audio-with-haptics-playback bt-sco-wb" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-safe-and-bt-sco-wb">
+        <path name="audio-with-haptics-playback bt-sco-wb" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-bt-sco-swb">
+        <path name="audio-with-haptics-playback bt-sco-swb" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback bt-a2dp">
+        <ctl name="RX_CDC_DMA_RX_6 Audio Mixer MultiMedia32" value="1"/>
+        <ctl name="SLIMBUS_7_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-and-bt-a2dp">
+        <path name="audio-with-haptics-playback bt-a2dp" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
+    </path>
+
+    <path name="audio-with-haptics-playback speaker-safe-and-bt-a2dp">
+        <path name="audio-with-haptics-playback bt-a2dp" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia31" value="1" />
     </path>
 
     <path name="deep-buffer-playback bt-a2dp">
@@ -1492,13 +1657,12 @@
     </path>
 
     <path name="mmap-playback">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia16" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia16" value="1" />
     </path>
 
     <path name="mmap-playback speaker">
-        <ctl name="SEN_MI2S_RX Audio Mixer MultiMedia16" value="1" />
-        <ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
+        <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia16" value="1" />
+	<ctl name="aw882xx_algo_music_deepbuffer_switch" value="On" />
 	<ctl name="aw882xx_spin_relase_time" value="100" />
     </path>
 
@@ -1544,6 +1708,15 @@
         <path name="mmap-playback speaker" />
     </path>
 
+    <path name="mmap-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia16" value="1" />
+    </path>
+
+   <path name="mmap-playback speaker-and-display-port">
+        <path name="mmap-playback display-port" />
+        <path name="mmap-playback" />
+    </path>
+
     <path name="mmap-record">
       <ctl name="MultiMedia16 Mixer TX_CDC_DMA_TX_3" value="1" />
     </path>
@@ -1577,6 +1750,10 @@
 
     <path name="hifi-playback usb-headphones">
         <ctl name="USB_AUDIO_RX Audio Mixer MultiMedia2" value="1" />
+    </path>
+
+    <path name="hifi-playback display-port">
+        <ctl name="DISPLAY_PORT Mixer MultiMedia2" value="1" />
     </path>
 
     <path name="hifi-record">
@@ -1659,6 +1836,18 @@
         <path name="incall_music_uplink" />
     </path>
 
+    <path name="incall_music_uplink display-port">
+        <path name="incall_music_uplink" />
+    </path>
+
+    <path name="incall_music_uplink speaker-and-display-port">
+        <path name="incall_music_uplink" />
+    </path>
+
+    <path name="incall_music_uplink hearing-aid">
+        <path name="incall_music_uplink" />
+    </path>
+
     <path name="incall_music_uplink2">
         <ctl name="Incall_Music_2 Audio Mixer MultiMedia9" value="1" />
     </path>
@@ -1703,6 +1892,14 @@
         <path name="incall_music_uplink2" />
     </path>
 
+    <path name="incall_music_uplink2 display-port">
+        <path name="incall_music_uplink2" />
+    </path>
+
+    <path name="incall_music_uplink2 speaker-and-display-port1">
+        <path name="incall_music_uplink2" />
+    </path>
+
     <path name="incall_music_uplink2 headset">
         <path name="incall_music_uplink2" />
     </path>
@@ -1727,6 +1924,10 @@
         <path name="incall_music_uplink2" />
     </path>
 
+    <path name="incall_music_uplink2 hearing-aid">
+        <path name="incall_music_uplink2" />
+    </path>
+
     <path name="call-proxy">
     </path>
 
@@ -1740,57 +1941,36 @@
     <path name="spkr-vi-record">
         <ctl name="aw882xx_rx_switch" value="Enable" />
         <ctl name="aw882xx_tx_switch" value="Enable" />
-        <ctl name="SEN_MI2S_RX_VI_FB_MUX" value="SEN_MI2S_TX" />
+        <ctl name="PRI_MI2S_RX_VI_FB_MUX" value="PRI_MI2S_TX" />
     </path>
 
     <!-- These are actual sound device specific mixer settings -->
     <path name="amic1">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="TX DEC0 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX0" value="SWR_MIC0" />
-        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
+        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1"/>
+        <ctl name="TX DEC0 MUX" value="MSM_DMIC"/>
+        <ctl name="TX DMIC MUX0" value="DMIC2"/>
     </path>
 
     <path name="amic2">
-        <ctl name="TX_CDC_DMA_TX_4 Channels" value="One"/>
-        <ctl name="TX_AIF2_CAP Mixer DEC0" value="1"/>
-        <ctl name="TX DEC0 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX0" value="SWR_MIC4"/>
-        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1"/>
-        <ctl name="ADC2 MUX" value="INP2"/>
-        <ctl name="DEC0_BCS Switch" value="1"/>
-        <ctl name="BCS Channel" value="CH5"/>
-        <ctl name="MBHC ChMap" value="SWRM_TX2_CH2"/>
-        <ctl name="ADC2_MIXER Switch" value="1"/>
     </path>
 
     <path name="amic3">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1"/>
-        <ctl name="TX DEC0 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX0" value="SWR_MIC4"/>
-        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1"/>
-        <ctl name="ADC2 MUX" value="INP3"/>
-        <ctl name="ADC2_MIXER Switch" value="1"/>
+        <ctl name="TX DEC0 MUX" value="MSM_DMIC"/>
+        <ctl name="TX DMIC MUX0" value="DMIC0"/>
     </path>
 
     <path name="amic4">
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="One" />
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1"/>
-        <ctl name="TX DEC0 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX0" value="SWR_MIC5"/>
-        <ctl name="ADC3 ChMap" value="SWRM_TX2_CH2"/>
-        <ctl name="ADC3_MIXER Switch" value="1"/>
     </path>
 
     <path name="mic1">
-        <path name="amic3" />
+        <path name="amic1" />
     </path>
 
     <path name="mic2">
-        <path name="amic1" />
+        <path name="amic3" />
     </path>
 
     <path name="mic3">
@@ -1798,67 +1978,33 @@
     </path>
 
     <path name="camcorder-mic-bf">
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
-        <!-- the top mic as left channel -->
-        <ctl name="ADC1 Volume" value="8" />
+	<ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="TX DEC0 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX0" value="SWR_MIC0" />
-        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
-        <!-- the bottom mic as right channel -->
-        <ctl name="ADC2 Volume" value="8" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1"/>
-        <ctl name="TX DEC1 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX1" value="SWR_MIC4"/>
-        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1"/>
-        <ctl name="ADC2_MIXER Switch" value="1"/>
-        <ctl name="ADC2 MUX" value="INP3"/>
+        <ctl name="TX DEC0 MUX" value="MSM_DMIC"/>
+        <ctl name="TX DEC1 MUX" value="MSM_DMIC" />
+        <ctl name="TX DMIC MUX0" value="DMIC0"/>
+	<ctl name="TX DMIC MUX1" value="DMIC2"/>
+        <!-- the top mic as left channel -->
+        <!-- the bottom mic as right channel -->
     </path>
 
     <path name="camcorder-mic-bf-reverse">
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
+	<ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
+        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
+        <ctl name="TX_AIF1_CAP Mixer DEC1" value="1"/>
+        <ctl name="TX DEC0 MUX" value="MSM_DMIC"/>
+        <ctl name="TX DEC1 MUX" value="MSM_DMIC" />
+        <ctl name="TX DMIC MUX0" value="DMIC0"/>
+        <ctl name="TX DMIC MUX1" value="DMIC2"/>
         <!-- the bottom mic as left channel -->
-        <ctl name="ADC2 Volume" value="8" />
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1"/>
-        <ctl name="TX DEC0 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX0" value="SWR_MIC4"/>
-        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1"/>
-        <ctl name="ADC2_MIXER Switch" value="1"/>
-        <ctl name="ADC2 MUX" value="INP3"/>
         <!-- the top mic as right channel -->
-        <ctl name="ADC1 Volume" value="8" />
-        <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
-        <ctl name="TX DEC1 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX1" value="SWR_MIC0" />
-        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
     </path>
 
     <path name="camcorder-mic-audio-zoom">
-        <ctl name="TX_CDC_DMA_TX_3 Channels" value="Three" />
         <!-- the top mic as left channel -->
-        <ctl name="ADC1 Volume" value="6" />
-        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
-        <ctl name="TX DEC0 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX0" value="SWR_MIC0" />
-        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
         <!-- the bottom mic as right channel -->
-        <ctl name="ADC2 Volume" value="6" />
-        <ctl name="TX_AIF1_CAP Mixer DEC1" value="1"/>
-        <ctl name="TX DEC1 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX1" value="SWR_MIC4"/>
-        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1"/>
-        <ctl name="ADC2_MIXER Switch" value="1"/>
-        <ctl name="ADC2 MUX" value="INP3"/>
         <!-- the back mic as aux channel -->
-        <ctl name="ADC3 Volume" value="4" />
-        <ctl name="TX_AIF1_CAP Mixer DEC2" value="1"/>
-        <ctl name="TX DEC2 MUX" value="SWR_MIC"/>
-        <ctl name="TX SMIC MUX2" value="SWR_MIC5"/>
-        <ctl name="ADC3 ChMap" value="SWRM_TX2_CH2"/>
-        <ctl name="ADC3_MIXER Switch" value="1"/>
     </path>
 
     <path name="three-mic">
@@ -1869,7 +2015,13 @@
         <path name="camcorder-mic-bf" />
     </path>
 
+    <path name="haptics">
+         <ctl name="SWR DAC_Port Switch" value="1" />
+    </path>
+
     <path name="speaker">
+         <!--ctl name="aw882xx_rx_switch" value="Enable" /-->
+         <!--ctl name="aw882xx_tx_switch" value="Enable" /-->
     </path>
 
     <path name="speaker-left">
@@ -1926,21 +2078,17 @@
 
     <path name="sidetone-handset">
         <path name="sidetone-iir" />
-        <ctl name="IIR0 INP0 Volume" value="54" />
+        <ctl name="IIR0 INP0 Volume" value="40" />
         <ctl name="IIR0 INP0 MUX" value="DEC2" />
         <ctl name="RX INT0 MIX2 INP" value="SRC0" />
     </path>
 
     <path name="afe-sidetone">
-        <ctl name="Voice Sidetone Enable" value="1" />
+        <ctl name="Voice Sidetone Enable" value="0" />
     </path>
 
     <path name="speaker-mic">
-        <path name="amic1" />
-    </path>
-
-    <path name="speaker-mic-game">
-        <path name="amic4" />
+        <path name="amic3" />
     </path>
 
     <path name="vi-feedback">
@@ -1955,31 +2103,17 @@
     <path name="handset">
         <ctl name="aw_dev_0_switch" value="Disable" />
         <ctl name="aw_dev_1_prof" value="Receiver" />
-        <ctl name="aw882xx_algo_handset_switch" value="on" />
     </path>
 
     <path name="handset-mic">
-        <path name="amic3" />
-    </path>
-
-    <path name="handset-mic-top">
         <path name="amic1" />
     </path>
 
+    <path name="handset-mic-top">
+        <path name="amic3" />
+    </path>
+
     <path name="headphones">
-        <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
-        <ctl name="RX_MACRO RX1 MUX" value="AIF1_PB" />
-        <ctl name="RX_CDC_DMA_RX_0 Channels" value="Two" />
-        <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
-        <ctl name="RX INT1_1 MIX1 INP0" value="RX1" />
-        <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX_COMP1 Switch" value="1" />
-        <ctl name="RX_COMP2 Switch" value="1" />
-        <ctl name="HPHL_COMP Switch" value="1" />
-        <ctl name="HPHR_COMP Switch" value="1" />
-        <ctl name="HPHL_RDAC Switch" value="1" />
-        <ctl name="HPHR_RDAC Switch" value="1" />
     </path>
 
     <path name="headphones-44.1">
@@ -1992,16 +2126,13 @@
 
     <path name="hph-highquality-mode">
         <ctl name="RX_HPH_PWR_MODE" value="LOHIFI" />
-        <ctl name="RX HPH Mode" value="CLS_H_LOHIFI" />
     </path>
 
     <path name="hph-lowpower-mode">
         <ctl name="RX_HPH_PWR_MODE" value="ULP" />
-        <ctl name="RX HPH Mode" value="CLS_H_ULP" />
     </path>
 
     <path name="hph-class-ab-mode">
-        <ctl name="RX HPH Mode" value="CLS_AB" />
     </path>
 
     <path name="true-native-mode">
@@ -2014,13 +2145,10 @@
     <path name="headset-mic">
         <path name="amic2" />
         <ctl name="TX_DEC0 Volume" value="84" />
-        <ctl name="ADC2 Volume" value="8" />
     </path>
 
     <path name="external-mic">
         <path name="amic2" />
-        <ctl name="ADC2 Volume" value="8" />
-        <ctl name="TX_DEC0 Volume" value="84" />
     </path>
 
     <path name="voice-handset">
@@ -2037,6 +2165,10 @@
 
     <path name="voice-speaker">
         <path name="speaker-mono" />
+    </path>
+
+    <path name="voice-speaker-2">
+        <path name="speaker-mono-2" />
     </path>
 
     <path name="voice-speaker-mic">
@@ -2082,9 +2214,17 @@
     <path name="afe-proxy">
     </path>
 
+    <path name="display-port">
+    </path>
+
     <path name="speaker-and-usb-headphones">
         <path name="speaker" />
         <path name="usb-headphones" />
+    </path>
+
+    <path name="speaker-and-display-port">
+        <path name="speaker" />
+        <path name="display-port" />
     </path>
 
     <path name="voice-rec-mic">
@@ -2116,17 +2256,12 @@
     <!-- Dual MIC devices -->
     <path name="handset-dmic-endfire">
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
-        <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
-        <ctl name="TX DEC1 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX1" value="SWR_MIC4" />
-        <ctl name="ADC2 ChMap" value="SWRM_TX2_CH1" />
-        <ctl name="ADC2 MUX" value="INP3" />
-        <ctl name="ADC2_MIXER Switch" value="1" />
-        <ctl name="TX_AIF1_CAP Mixer DEC2" value="1" />
-        <ctl name="TX DEC2 MUX" value="SWR_MIC" />
-        <ctl name="TX SMIC MUX2" value="SWR_MIC0" />
-        <ctl name="ADC1 ChMap" value="SWRM_TX1_CH1" />
-        <ctl name="ADC1_MIXER Switch" value="1" />
+        <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
+	<ctl name="TX_AIF1_CAP Mixer DEC1" value="1"/>
+	<ctl name="TX DEC0 MUX" value="MSM_DMIC"/>
+        <ctl name="TX DEC1 MUX" value="MSM_DMIC" />
+	<ctl name="TX DMIC MUX0" value="DMIC2"/>
+	<ctl name="TX DMIC MUX1" value="DMIC0"/>
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -2166,6 +2301,13 @@
         <path name="dmic-endfire" />
     </path>
 
+    <path name="hearing-aid">
+    </path>
+
+    <path name="hearing-aid-mic">
+        <path name="voice-speaker-mic"/>
+    </path>
+
     <path name="speaker-dmic-broadside">
         <path name="speaker-dmic-endfire" />
     </path>
@@ -2178,6 +2320,7 @@
     <path name="voice-speaker-dmic-broadside">
         <path name="dmic-broadside" />
     </path>
+
 
     <!-- TTY devices -->
 
@@ -2212,7 +2355,6 @@
 
     <path name="voice-tty-full-headset-mic">
     	<path name="amic2" />
-        <ctl name="ADC2 Volume" value="0" />
     </path>
 
     <path name="voice-tty-hco-headset-mic">

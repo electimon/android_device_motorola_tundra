@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SettingsProviderResDubai",
+    name: "SettingsProviderResTundra",
     sdk_version: "current",
     vendor: true
 }
