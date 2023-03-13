@@ -84,21 +84,15 @@ utags.ko
 mmi_info.ko
 mmi_annotate.ko
 sensors_class.ko
-watchdogtest.ko
 exfat.ko
 bm_adsp_ulog.ko
 mmi_charger.ko
 qti_glink_charger.ko
 qpnp_adaptive_charge.ko
-cirrus_wm_adsp.ko
-cirrus_cs35l41.ko
-cirrus_cs35l45.ko
-aw862x.ko
 mmi_info.ko
 mmi_relay.ko
 wl2864c.ko
 cci_intf.ko
-st21nfc.ko
 nfc_i2c.ko
 sx937x_sar.ko
 moto_f_usbnet.ko
@@ -108,5 +102,3 @@ mmi_sys_temp.ko
 rbs_fps_mmi.ko
 mmi_info.ko
 mmi_annotate.ko
-pstore_zone.ko
-pstore_blk.ko
