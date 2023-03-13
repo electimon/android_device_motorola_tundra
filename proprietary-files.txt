@@ -472,6 +472,10 @@ vendor/lib64/libets_teeclient_v3.so
 vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
+# NFC
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp-pnscr.conf:vendor/etc/libnfc-nxp.conf
+
 # OEM
 vendor/etc/vhw.xml
 
