@@ -58,6 +58,7 @@ on post-fs-data
     chmod 0666 /sys/class/backlight/panel0-backlight/brightness
     chmod 0666 /sys/class/drm/card0-DSI-1/panelName
     chmod 0666 /sys/class/drm/card0-DSI-1/panelId
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules wlan
 
 on early-boot
     # Add for egis fingerprint
