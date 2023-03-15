@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tundra.mk
+    $(LOCAL_DIR)/lmodroid_tundra.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tundra-user \
-    lineage_tundra-userdebug \
-    lineage_tundra-eng
+    lmodroid_tundra-user \
+    lmodroid_tundra-userdebug \
+    lmodroid_tundra-eng
