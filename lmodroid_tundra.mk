@@ -25,7 +25,7 @@ $(call inherit-product, device/motorola/tundra/device.mk)
 $(call inherit-product, vendor/lmodroid/config/common_full_phone.mk)
 
 # GApps
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+$(call inherit-product, vendor/gapps/config.mk)
 
 PRODUCT_NAME := lmodroid_tundra
 PRODUCT_DEVICE := tundra
