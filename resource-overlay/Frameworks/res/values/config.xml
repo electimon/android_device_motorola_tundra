@@ -70,16 +70,24 @@
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <array name="config_screenBrightnessBacklight">
         <item>0</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+        <item>1</item>
         <item>6</item>
-        <item>12</item>
+        <item>11</item>
+        <item>28</item>
+        <item>40</item>
         <item>48</item>
-        <item>57</item>
-        <item>76</item>
-        <item>98</item>
-        <item>129</item>
+        <item>62</item>
+        <item>74</item>
+        <item>85</item>
+        <item>102</item>
+        <item>128</item>
+        <item>153</item>
+        <item>170</item>
+        <item>179</item>
+        <item>187</item>
+        <item>198</item>
+        <item>215</item>
+        <item>238</item>
         <item>255</item>
     </array>
 
@@ -92,17 +100,25 @@
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
         <item>0</item>
-        <item>5</item>
-        <item>7</item>
+        <item>2</item>
         <item>10</item>
-        <item>12</item>
-        <item>24</item>
-        <item>95</item>
-        <item>111</item>
-        <item>149</item>
-        <item>192</item>
-        <item>252</item>
-        <item>500</item>
+        <item>20</item>
+        <item>50</item>
+        <item>70</item>
+        <item>85</item>
+        <item>110</item>
+        <item>130</item>
+        <item>150</item>
+        <item>180</item>
+        <item>225</item>
+        <item>270</item>
+        <item>300</item>
+        <item>315</item>
+        <item>330</item>
+        <item>350</item>
+        <item>380</item>
+        <item>420</item>
+        <item>450</item>
     </array>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
@@ -134,7 +150,7 @@
 
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -50,0 L 50,0 L 50,115 L -50,115 Z</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -31,0 L -31,95 L 31,95 L 31,0 Z</string>
 
 	<!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
@@ -284,4 +300,8 @@
 
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">true</bool>
+
+    <!-- The default peak refresh rate for a given device. Change this value if you want to allow
+         for higher refresh rates to be automatically used out of the box -->
+    <integer name="config_defaultPeakRefreshRate">120</integer>
 </resources>
